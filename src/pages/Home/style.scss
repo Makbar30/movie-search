@@ -57,36 +57,36 @@
     justify-content: flex-start;
     align-items: center;
     height: 70%;
-    .error-container{
+    .error-container {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      .icon-title{
+      .icon-title {
         color: darkgrey;
         margin: 0;
         margin-bottom: 10px;
       }
-      .icon{
+      .icon {
         width: 50%;
         height: 50%;
         // margin : 40px;
       }
     }
-    .icon-title{
+    .icon-title {
       color: darkgrey;
       margin: 0;
       margin-bottom: 10px;
     }
-    .icon{
+    .icon {
       width: 50%;
       height: 50%;
       // margin : 40px;
     }
     .movie-container {
       width: 80%;
-      .pagination-header{
+      .pagination-header {
         display: flex;
         justify-content: space-around;
         position: relative;
@@ -95,7 +95,6 @@
           display: flex;
           list-style: none;
           outline: none;
-          
         }
         .pagination > .active > a {
           background-color: $primary-color;
@@ -135,11 +134,12 @@
           width: 20%;
         }
       }
-      
+
       .movie-list {
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        place-items: center;
         .movie_card {
           padding: 0 !important;
           width: 200px;
@@ -203,89 +203,89 @@
           }
         }
       }
-    }   
+    }
   }
 }
 
 @media screen and (max-width: 960px) {
-  .form h1{
+  .form h1 {
     font-size: 22px;
   }
-  .form__input{
-    width: 80%!important;
+  .form__input {
+    width: 80% !important;
   }
 
-  .movie-list{
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))!important;
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
   }
 
-  .movie_card{
-    width: 150px!important;
-    height: 230px!important;
+  .movie_card {
+    width: 150px !important;
+    height: 230px !important;
   }
-
 }
 
 @media screen and (max-width: 486px) {
-  .icon{
-    width: 80%!important;
+  .home {
+    padding: 0px;
   }
-  .pagination-header{
-    justify-content: center!important;
+  .home {
+    padding: 0px;
+  }
+  .icon {
+    width: 80% !important;
+  }
+  .pagination-header {
+    justify-content: center !important;
     flex-direction: column;
   }
 
-  .pagination{
-    margin: 0!important;
-    margin-bottom: 10px!important;
+  .pagination {
+    margin: 0 !important;
+    margin-bottom: 10px !important;
     padding: 0;
     justify-content: center;
     align-items: center;
   }
 
-  .result{
+  .result {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0!important;
+    margin-top: 0 !important;
   }
 
-  .movie-list{
-    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr))!important;
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)) !important;
     margin-bottom: 30px;
   }
 
-  .movie_card{
-    width: 120px!important;
-    height: 200px!important;
+  .movie_card {
+    width: 120px !important;
+    height: 200px !important;
   }
-
 }
 
 @media screen and (max-width: 376px) {
-  .movie-list{
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))!important;
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
   }
-  .pagination{
-    margin: 0!important;
-    margin-bottom: 30px!important;
+  .pagination {
+    margin: 0 !important;
+    margin-bottom: 30px !important;
     padding: 0;
     justify-content: center;
     align-items: center;
   }
-  .movie_card{
-    margin: 0!important;
-    width: 120px!important;
-    height: 200px!important;
+  .movie_card {
+    margin: 0 !important;
+    width: 120px !important;
+    height: 200px !important;
   }
 }
 
 @media screen and (max-width: 326px) {
-  .home{
-    padding: 0px;
-  }
-
   .pagination > li > a {
-    padding: 5px 8px!important;
+    padding: 5px 8px !important;
   }
 }
