@@ -110,7 +110,7 @@ function HomePage(props) {
                 <main className="home__content">
                     <div className="movie-container">
                         <div className="loading">
-                            <img className="loading" alt="loading" src="/assets/images/loading.gif" />
+                            <img className="loading" alt="loading" src={`${process.env.PUBLIC_URL}/assets/images/loading.gif`}  />
                             <h3>Searching movies..</h3>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ function HomePage(props) {
                 <main className="home__content">
                     <div className="movie-container">
                         <div className="loading">
-                            <img className="loading" alt="loading" src="/assets/images/loading.gif" />
+                            <img className="loading" alt="loading" src={`${process.env.PUBLIC_URL}/assets/images/loading.gif`}  />
                             <h3>Searching movies..</h3>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ function HomePage(props) {
                         <div className="movie-container">
                             {renderPagination()}
                             <div className="loading">
-                                <img className="loading" alt="loading" src="/assets/images/loading.gif" />
+                                <img className="loading" alt="loading" src={`${process.env.PUBLIC_URL}/assets/images/loading.gif`}  />
                                 <h3>Searching movies..</h3>
                             </div>
 

@@ -17,7 +17,7 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}> 
       <Switch>
         <Route exact path="/" name="Main Page" component={HomePage} />
         <Route path="/detail/:id" name="Detail Page" component={DetailPage} />

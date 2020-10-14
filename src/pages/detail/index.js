@@ -76,7 +76,7 @@ function DetailPage(props) {
         return (
             <div className="detail">
                 <div className="loading">
-                    <img className="loading" alt="loading" src="/assets/images/loading.gif" />
+                    <img className="loading" alt="loading" src={`${process.env.PUBLIC_URL}/assets/images/loading.gif`} />
                     <h3>Searching movies detail..</h3>
                 </div>
             </div>

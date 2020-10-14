@@ -1,6 +1,7 @@
 {
   "name": "movie-search",
   "version": "0.1.0",
+  "homepage": "http://Makbar30.github.io/movie-search",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
