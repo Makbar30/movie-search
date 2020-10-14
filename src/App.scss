@@ -1,5 +1,8 @@
+$primary-color : #6C63FF;
+
 .App {
   height: 100%;
-  display: flex;
-  flex-direction: column;
 }
+
+@import './pages/home/style.scss';
+@import './pages/detail/style.scss';
